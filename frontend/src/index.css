@@ -1,0 +1,27 @@
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 0;
+  background: #F6F1E7;
+  color: #352B1E;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 10px 12px; text-align: left; }
+th { font-weight: 600; font-size: 13px; color: #83765F; border-bottom: 1px solid #E1D6C2; }
+td { border-bottom: 1px solid #EFE8DA; font-size: 14px; }
+tbody tr:nth-child(even) { background: #FBF8F2; }
+tbody tr:hover { background: #F2EADA; }
+
+button { cursor: pointer; transition: opacity 0.15s ease, transform 0.05s ease; }
+button:hover { opacity: 0.85; }
+button:active { transform: scale(0.98); }
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #6B4F3B;
+  outline-offset: 1px;
+}
