@@ -2,7 +2,7 @@ import axios from "axios";
 
 // While developing on your laptop, the backend runs at this address.
 // When we deploy to Azure later, we'll change this to the live backend URL.
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://employee-timesheet-system-em77.onrender.com";
 
 const api = axios.create({ baseURL: API_BASE_URL });
 
