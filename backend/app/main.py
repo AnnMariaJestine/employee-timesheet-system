@@ -9,7 +9,7 @@ app = FastAPI(title="Employee Timesheet Management System")
 # In production on Azure, replace "*" with your actual frontend URL for safety.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[""https://timesheet-frontend.onrender.com""],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
